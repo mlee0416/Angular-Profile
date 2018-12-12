@@ -6,21 +6,20 @@ import { AppComponent } from './app.component';
 
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FormsModule } from '@angular/forms';
-import { NavbarComponent } from './navbar/navbar.component';
-import { CardComponent } from './card/card.component';
+import { FooterComponent } from './main-layout/footer/footer.component';
+import { NavbarComponent } from './main-layout/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
-    CardComponent
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MDBBootstrapModule.forRoot(),
     FormsModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent],
